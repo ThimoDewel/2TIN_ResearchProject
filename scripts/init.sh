@@ -1,4 +1,3 @@
-#!/bin/sh
 
 # update packages
 sudo apt update
