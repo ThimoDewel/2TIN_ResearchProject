@@ -1,3 +1,4 @@
+#!/bin/bash
 # update packages
 sudo apt update
 # isntall apache
