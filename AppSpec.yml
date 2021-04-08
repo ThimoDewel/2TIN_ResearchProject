@@ -1,0 +1,20 @@
+version: 0.0
+os: linux 
+files:
+  - source: /index.php 
+    destination: /var/www/html
+hooks:
+  ApplicationStop:
+    - location: 
+      timeout:
+      runas:
+    - location: 
+      timeout:
+      runas: 
+  BeforeInstall:
+    - location: 
+      timeout:
+      runas: 
+    - location: 
+      timeout:
+      runas:
