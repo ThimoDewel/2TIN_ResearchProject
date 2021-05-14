@@ -7,5 +7,5 @@ sudo rm -f /var/www/html/index.html
 sudo rm -rf /var/www/html/assets/images
 
 #composer stuff
-#composer install
-#composer dump-autoload
+sudo yes | composer install
+sudo yes | composer dump-autoload
